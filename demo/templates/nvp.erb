@@ -1,0 +1,4 @@
+<%- @nvp_config_merged.map do |key,value| if value.to_s.strip.length != 0 -%>
+<%= key %>=<%= value %>
+<%- end end -%>
+

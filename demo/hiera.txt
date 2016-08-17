@@ -1,0 +1,2 @@
+puppet apply  -e 'include demo' --modulepath=/vagrant/modules
+puppet apply  -e 'include demo' --modulepath=/vagrant/modules --hiera_config=/vagrant/modules/demo/hiera.yaml

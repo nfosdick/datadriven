@@ -1,0 +1,13 @@
+demo::yaml_config:
+  systemLog:
+    path: '/tmp/other/path/nick.log'
+    newattr: 'herIam'
+
+demo::nvp_config:
+  acceptCount: '200'
+  serviceport: '1234'
+ 
+demo::ini_config:
+  processManagement: 
+    fork: false
+    newattr: 'something'

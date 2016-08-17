@@ -1,0 +1,9 @@
+<% @ini_config_merged.map do |k,v| -%>
+<%   if v.is_a?(Hash) -%>
+[<%=   k %>]
+<%     v.sort.map do |ki, vi| -%>
+<%=        ki %> = <%= vi %>
+<%     end -%>
+<%   end %>
+<% end -%>
+
